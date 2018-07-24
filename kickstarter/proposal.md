@@ -42,7 +42,7 @@ To define the accuracy of the model, I intent to use a grid search using the R2 
 
 The first steps of the projects would be to define which features would be relevant to our problems. Some of them seem to be giving the same information so maybe they can be reduced, others seem to be giving information that maybe are not relevant to the problem.
 
-After that, a preprocessing will be made so the data type is represented in the same universe (numbers).
+After that, a preprocessing will be made so the data type is represented in the same universe (numbers). I'm thinking of using panda's dummies transformation to convert categorical variable into indicator variables.
 
 Now the data will be splitted and tested by various ways with some classification algorithms. I'll try to check if the data can be used as it is at this point or if it is better to have it normalized or maybe apply a PCA onto that. Then, after checking the results, I intent to use a GridSearch to try to improve even more the results that I already achieved at this point.
 
