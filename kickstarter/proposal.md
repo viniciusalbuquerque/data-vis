@@ -1,23 +1,25 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
-Joe Udacity  
-December 31st, 2050
+Vinícius Albuquerque  
+July, 2018
 
 ## Proposal
-_(approx. 2-3 pages)_
+Predicting if a project will succeed on Kickstarter platform.
+
 
 ### Domain Background
-_(approx. 1-2 paragraphs)_
+Crowdfunding is a method of raising funds for a product/business/project through collective effort. That means that instead of the traditional way (which is having a small amount of investors that have large amount of the proposed service), people now ask for the community to help funding their products.
 
-In this section, provide brief details on the background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited in this section, including why that research is relevant. Additionally, a discussion of your personal motivation for investigating a particular problem in the domain is encouraged but not required.
+Kickstarter is a crowdfunding platform, thus, it is a intermediary where people can propose projects and ask for a specific amount of capital and in exchange offer something in return for those whom have helped achieve the goal, sometimes a first try on the product or a demo or a prototype.
 
 ### Problem Statement
-_(approx. 1 paragraph)_
 
-In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
+The goal of this project is to be able to predict if a project would achieve its goal of raising the asked amount of funding or not so people would know how to adjust their demands in a way that it would be probable that they would get the capital they are asking, thus having their projects possible to get done. 
+
+In stats collected on July 23rd, Kickstarter was used to successfully fund 147,688 projects (https://www.kickstarter.com/help/stats?ref=global-footer) and had 14,977,750 total funders. As we can see, it is a platform accessed and used by millions of people so having a model that could successfully represent the results of the proposals would be rellevant to help those people know better how to get their needed funding. 
+
 
 ### Datasets and Inputs
-_(approx. 2-3 paragraphs)_
 
 In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
 
